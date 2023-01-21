@@ -1,0 +1,295 @@
+html{
+    font-family: 'Open Sans';
+    /*background-color: #EBEBEB;*/
+    background: linear-gradient(to bottom, #00BFFF, #E0FFFF);
+    height: 115%;
+
+
+
+}
+
+#explanation{
+    font-size: 20px;
+    width:500px;
+    text-align: left;
+    word-wrap: break-word;
+}
+#title{
+    font-size: 60px;
+}
+*{
+	/*border: 1px solid red; */
+
+    box-sizing: border-box;
+}
+.uploadPic{
+/*    background-color: red;*/
+/*    width: 18%;*/
+/*
+    margin-left:70%;
+    margin-top: -30%;
+*/
+    position: relative;
+    right: 100px;
+}
+#para{
+    font-size: 40px;
+    color: #000B4F;
+}
+
+#filebutton{
+    font-weight: bold;
+}
+
+.filebuttontext{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #20368F;
+    font-size: 20px;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    width: 190px;
+    height: 45px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/*
+.grid{
+    margin-left: -45%;
+}
+*/
+/*
+.features{
+    border: 1px solid red;
+
+    margin-left: 5%;
+    width: 20%;
+    height: 100%;
+}
+*/
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+/*    background-color: blue;*/
+
+/*    background-color: antiquewhite;*/
+    height: 580px;
+    min-width: 1500px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+.uploadButton{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+#custom-button{
+    padding: 10px;
+    color: white;
+    background-color: #009578;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#custom-button:hover{
+    background-color: #00b28f;
+}
+
+#custom-text{
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #aaa;
+}
+
+
+label{
+    color: white;
+    height: 40px;
+    width: 180px;
+    background-color: #f5af09;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    position: relative;
+    right: 30px;
+/*
+    margin-left: auto;
+    margin-right: 150px;
+*/
+/*    display: inline;*/
+/*    background-color: aliceblue;*/
+/*
+    width: 700px;
+    height: 550px;
+*/
+}
+
+.tablewrapper{
+/*    background-color: pink;*/
+/*    width: 60%;*/
+    padding-right: 100px;
+}
+
+table th{
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+table td{
+  border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+::selection{
+    background-color: transparent;
+}
+
+::-moz-selection {
+    background-color: transparent;
+}
+
+.pin{
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+    border: transparent;
+}
+
+.pin:hover{
+    cursor: pointer;
+/*    background-color: #ADD8E6;*/
+}
+input:focus{
+    outline:none;
+    background-color: #ADD8E6;
+}
+
+input[type="text"]{
+    font-family: 'Open Sans';
+}
+
+input[type="submit"]{
+    display: none;
+}
+
+.pin:clicked{
+    background-color: black;
+}
+
+#button{
+	background-color: #20368F;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+/*    margin-left: 50px;*/
+/*    margin-top: 20px;*/
+    cursor: pointer;
+    position: relative;
+    left: 143px;
+    top: 20px;
+}
+
+.btn{
+    background-color: #428BCA;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
+    height: 40px;
+    border: transparent;
+    border-radius: 20px;
+/*    margin-left: 50px;*/
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #42a1ca;
+}
+
+#button:hover{
+    background-color: #829CD0;
+}
+
+.form-group{
+/*    background-color: aliceblue;*/
+    margin-top: 20px;
+}
+
+.formwrap{
+    margin-left: 50px;
+}
+
+.letter{
+    padding-right: 10px;
+}
+
+.row1{
+    border-top: 5px solid black;
+}
+
+.row9{
+    border-bottom: 5px solid black;
+}
+
+.col1{
+    border-left: 5px solid black;
+}
+
+.row1col1{
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.row9col1{
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.row1col9{
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.col9{
+    border-right: 5px solid black;
+}
+
+.row9col9{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#credits{
+	/*margin-left: 85%; */
+/*	margin-top: 17%;*/
+    font-family: 'Open Sans';
+    text-align: center;
+}
